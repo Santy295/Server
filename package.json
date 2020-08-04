@@ -17,7 +17,6 @@
   },
   "scripts": {
     "start": "node build/index.js",
-    "build": "tsc -w",
     "dev": "nodemon build/index.js",
     "postinstall": "tsc"
   },
