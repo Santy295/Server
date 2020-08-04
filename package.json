@@ -18,7 +18,8 @@
   "scripts": {
     "start": "node build/index.js",
     "build": "tsc -w",
-    "dev": "nodemon build/index.js"
+    "dev": "nodemon build/index.js",
+    "postinstall": "tsc"
   },
   "engines": {
     "node": "14.3.0"

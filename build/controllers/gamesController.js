@@ -14,10 +14,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const database_1 = __importDefault(require("../database"));
 class GamesController {
-    // public async list (req: Request, res: Response): Promise<void>{
-    //     const rad = await pool.query('SELECT * FROM p1')
-    //     res.json(rad);
-    // };
     list(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const registro = yield database_1.default.query('SELECT * FROM registro');
