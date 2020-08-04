@@ -16,11 +16,12 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
+    "tsc":"tsc",
     "start": "node build/index.js",
-    "build": "ng build",
+    "build": "tsc build",
     "watch": "tsc -w",
     "dev": "nodemon build/index.js",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "tsc build --prod"
   },
   "engines": {
     "node": "14.3.0",
