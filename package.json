@@ -17,10 +17,10 @@
   },
   "scripts": {
     "start": "node build/index.js",
-    "build": "tsc",
+    "build": "ng build",
     "watch": "tsc -w",
     "dev": "nodemon build/index.js",
-    "heroku-postbuild": "tsc --prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "engines": {
     "node": "14.3.0",
