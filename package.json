@@ -18,10 +18,9 @@
   "scripts": {
     "tsc":"tsc",
     "start": "node build/index.js",
-    "build": "tsc build",
+    "build": "npm run tsc",
     "watch": "tsc -w",
-    "dev": "nodemon build/index.js",
-    "heroku-postbuild": "tsc build --prod"
+    "dev": "nodemon build/index.js"
   },
   "engines": {
     "node": "14.3.0",
