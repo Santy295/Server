@@ -16,11 +16,7 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "tsc":"tsc",
     "start": "node build/index.js",
-    "build-ts": "tsc",
-    "postinstall": "npm run build-ts",
-    "watch": "tsc -w",
     "dev": "nodemon build/index.js"
   },
   "engines": {
