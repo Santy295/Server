@@ -1,8 +1,8 @@
 export default{
     database:{
-        host: 'localhost',
-        user: 'root',
-        password: 'santy295',
-        database: 'tmy_quito'
+        host: 'remotemysql.com',
+        user: '1UizlKY2cn',
+        password: 'XF4AQdbrqq',
+        database: '1UizlKY2cn'
     }
 }
